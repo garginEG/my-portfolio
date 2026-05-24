@@ -1,0 +1,35 @@
+# Секреты — никогда в Git
+.env
+.env.local
+.env.*.local
+*.key
+*.pem
+secrets.json
+config.local.*
+
+# Зависимости и сборки
+node_modules/
+dist/
+build/
+.cache/
+
+# IDE / редакторы
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Системные
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Логи
+*.log
+npm-debug.log*
+
+# Базы данных
+*.db
+*.sqlite
+*.sqlite3
